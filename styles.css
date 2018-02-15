@@ -1,0 +1,43 @@
+/* add your CSS here */
+body {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.card {
+    width: 300px;
+    padding: 2px 10px;
+    border: solid lightgrey 1px;
+    border-radius: 6px;
+    box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.07);
+    background: #feffeb url("https://www.transparenttextures.com/patterns/concrete-wall-2.png") fixed;
+    margin: auto;
+}
+.top {
+    text-align: center;
+}
+.top img {
+    border-radius: 2px;
+}
+.fact {
+    font-style: italic;
+}
+.bottom {
+    border: solid lightgrey 1px;
+    border-radius: 2px;
+    padding: 2px 10px;
+    margin: 10px 0px;
+    font-size: 12px;
+}
+.card:hover {
+    box-shadow: 10px 10px 6px 2px rgba(0,0,0,0.07);
+    width: 302px;
+}
+.card:hover .bottom {
+    margin: 10px 1px 11px;
+}
+.no-bullets {
+    list-style-type: none;
+    padding: 0px;
+}
+.no-bullets span {
+    font-weight: bold;
+}
